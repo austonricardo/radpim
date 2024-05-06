@@ -1,0 +1,1454 @@
+<?xml version="1.0"?>
+<DiagramPers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UmlTypes>
+    <UmlType>
+      <Bounds>
+        <Location>
+          <X>189</X>
+          <Y>168</Y>
+        </Location>
+        <Size>
+          <Width>147</Width>
+          <Height>143</Height>
+        </Size>
+        <X>189</X>
+        <Y>168</Y>
+        <Width>147</Width>
+        <Height>143</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <Expanded>true</Expanded>
+      <TypeName>Usuário</TypeName>
+      <InheritsType>
+        <Bounds>
+          <Location>
+            <X>21</X>
+            <Y>21</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Size>
+          <X>21</X>
+          <Y>21</Y>
+          <Width>147</Width>
+          <Height>159</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Entidade</TypeName>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>id</Name>
+              <Size />
+              <IsKey>true</IsKey>
+              <Type>Numero</Type>
+            </UmlProperty>
+            <UmlProperty>
+              <Name>nome</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </InheritsType>
+      <PropertiesExpanded>false</PropertiesExpanded>
+      <Properties>
+        <Name>Propriedades</Name>
+        <Expanded>true</Expanded>
+        <Visible>true</Visible>
+        <Members>
+          <UmlProperty>
+            <Name>email</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+        </Members>
+      </Properties>
+      <Methods>
+        <Name>Methods</Name>
+        <Expanded>true</Expanded>
+        <Visible>false</Visible>
+        <Members />
+      </Methods>
+      <Property>
+        <Name />
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </Property>
+      <OldSelectedObject xsi:type="UmlProperty">
+        <Name />
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </OldSelectedObject>
+    </UmlType>
+    <UmlType>
+      <Bounds>
+        <Location>
+          <X>525</X>
+          <Y>21</Y>
+        </Location>
+        <Size>
+          <Width>147</Width>
+          <Height>223</Height>
+        </Size>
+        <X>525</X>
+        <Y>21</Y>
+        <Width>147</Width>
+        <Height>223</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <Expanded>true</Expanded>
+      <TypeName>Resposta</TypeName>
+      <PropertiesExpanded>false</PropertiesExpanded>
+      <Properties>
+        <Name>Propriedades</Name>
+        <Expanded>true</Expanded>
+        <Visible>true</Visible>
+        <Members>
+          <UmlProperty>
+            <Name>usuário</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Usuário</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>disciplina</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Disciplina</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>assunto</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Assunto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>resposta</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>acerto</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Numero</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>questão</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Questão</Type>
+          </UmlProperty>
+        </Members>
+      </Properties>
+      <Methods>
+        <Name>Methods</Name>
+        <Expanded>true</Expanded>
+        <Visible>false</Visible>
+        <Members />
+      </Methods>
+      <Property>
+        <Name>acerto</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Numero</Type>
+      </Property>
+      <OldSelectedObject xsi:type="UmlProperty">
+        <Name>acerto</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Numero</Type>
+      </OldSelectedObject>
+    </UmlType>
+    <UmlType>
+      <Bounds>
+        <Location>
+          <X>525</X>
+          <Y>252</Y>
+        </Location>
+        <Size>
+          <Width>147</Width>
+          <Height>175</Height>
+        </Size>
+        <X>525</X>
+        <Y>252</Y>
+        <Width>147</Width>
+        <Height>175</Height>
+      </Bounds>
+      <Selected>true</Selected>
+      <Expanded>true</Expanded>
+      <TypeName>Filtro</TypeName>
+      <PropertiesExpanded>false</PropertiesExpanded>
+      <Properties>
+        <Name>Propriedades</Name>
+        <Expanded>true</Expanded>
+        <Visible>true</Visible>
+        <Members>
+          <UmlProperty>
+            <Name>usuario</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Usuário</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>disciplina</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Disciplina</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>assunto</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Assunto</Type>
+          </UmlProperty>
+        </Members>
+      </Properties>
+      <Methods>
+        <Name>Methods</Name>
+        <Expanded>true</Expanded>
+        <Visible>false</Visible>
+        <Members />
+      </Methods>
+      <Property>
+        <Name>assunto</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Assunto</Type>
+      </Property>
+      <OldSelectedObject xsi:type="UmlProperty">
+        <Name>assunto</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Assunto</Type>
+      </OldSelectedObject>
+    </UmlType>
+    <UmlType>
+      <Bounds>
+        <Location>
+          <X>357</X>
+          <Y>21</Y>
+        </Location>
+        <Size>
+          <Width>147</Width>
+          <Height>303</Height>
+        </Size>
+        <X>357</X>
+        <Y>21</Y>
+        <Width>147</Width>
+        <Height>303</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <Expanded>true</Expanded>
+      <TypeName>Questão</TypeName>
+      <PropertiesExpanded>false</PropertiesExpanded>
+      <Properties>
+        <Name>Propriedades</Name>
+        <Expanded>true</Expanded>
+        <Visible>true</Visible>
+        <Members>
+          <UmlProperty>
+            <Name>id</Name>
+            <Size />
+            <IsKey>true</IsKey>
+            <Type>Numero</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>enunciado</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>disciplina</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Disciplina</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>assunto</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Assunto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>autor</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>a</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>b</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>c</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>d</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>e</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>resposta</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+        </Members>
+      </Properties>
+      <Methods>
+        <Name>Methods</Name>
+        <Expanded>true</Expanded>
+        <Visible>false</Visible>
+        <Members />
+      </Methods>
+      <Property>
+        <Name>resposta</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </Property>
+      <OldSelectedObject xsi:type="UmlProperty">
+        <Name>resposta</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </OldSelectedObject>
+    </UmlType>
+    <UmlType>
+      <Bounds>
+        <Location>
+          <X>189</X>
+          <Y>21</Y>
+        </Location>
+        <Size>
+          <Width>147</Width>
+          <Height>143</Height>
+        </Size>
+        <X>189</X>
+        <Y>21</Y>
+        <Width>147</Width>
+        <Height>143</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <Expanded>true</Expanded>
+      <TypeName>Disciplina</TypeName>
+      <InheritsType>
+        <Bounds>
+          <Location>
+            <X>21</X>
+            <Y>21</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Size>
+          <X>21</X>
+          <Y>21</Y>
+          <Width>147</Width>
+          <Height>159</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Entidade</TypeName>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>id</Name>
+              <Size />
+              <IsKey>true</IsKey>
+              <Type>Numero</Type>
+            </UmlProperty>
+            <UmlProperty>
+              <Name>nome</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </InheritsType>
+      <PropertiesExpanded>false</PropertiesExpanded>
+      <Properties>
+        <Name>Propriedades</Name>
+        <Expanded>true</Expanded>
+        <Visible>true</Visible>
+        <Members>
+          <UmlProperty>
+            <Name>descricao</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+        </Members>
+      </Properties>
+      <Methods>
+        <Name>Methods</Name>
+        <Expanded>true</Expanded>
+        <Visible>false</Visible>
+        <Members />
+      </Methods>
+      <Property>
+        <Name />
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </Property>
+      <OldSelectedObject xsi:type="UmlProperty">
+        <Name />
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </OldSelectedObject>
+    </UmlType>
+    <UmlType>
+      <Bounds>
+        <Location>
+          <X>21</X>
+          <Y>231</Y>
+        </Location>
+        <Size>
+          <Width>147</Width>
+          <Height>175</Height>
+        </Size>
+        <X>21</X>
+        <Y>231</Y>
+        <Width>147</Width>
+        <Height>175</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <Expanded>true</Expanded>
+      <TypeName>Assunto</TypeName>
+      <InheritsType>
+        <Bounds>
+          <Location>
+            <X>21</X>
+            <Y>21</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Size>
+          <X>21</X>
+          <Y>21</Y>
+          <Width>147</Width>
+          <Height>159</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Entidade</TypeName>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>id</Name>
+              <Size />
+              <IsKey>true</IsKey>
+              <Type>Numero</Type>
+            </UmlProperty>
+            <UmlProperty>
+              <Name>nome</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </InheritsType>
+      <PropertiesExpanded>false</PropertiesExpanded>
+      <Properties>
+        <Name>Propriedades</Name>
+        <Expanded>true</Expanded>
+        <Visible>true</Visible>
+        <Members>
+          <UmlProperty>
+            <Name>disciplina</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Disciplina</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>grupo</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Numero</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>pai</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Letra</Type>
+          </UmlProperty>
+        </Members>
+      </Properties>
+      <Methods>
+        <Name>Methods</Name>
+        <Expanded>true</Expanded>
+        <Visible>false</Visible>
+        <Members />
+      </Methods>
+      <Property>
+        <Name />
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </Property>
+      <OldSelectedObject xsi:type="UmlProperty">
+        <Name />
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </OldSelectedObject>
+    </UmlType>
+    <UmlType>
+      <Bounds>
+        <Location>
+          <X>21</X>
+          <Y>21</Y>
+        </Location>
+        <Size>
+          <Width>147</Width>
+          <Height>159</Height>
+        </Size>
+        <X>21</X>
+        <Y>21</Y>
+        <Width>147</Width>
+        <Height>159</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <Expanded>true</Expanded>
+      <TypeName>Entidade</TypeName>
+      <PropertiesExpanded>false</PropertiesExpanded>
+      <Properties>
+        <Name>Propriedades</Name>
+        <Expanded>true</Expanded>
+        <Visible>true</Visible>
+        <Members>
+          <UmlProperty>
+            <Name>id</Name>
+            <Size />
+            <IsKey>true</IsKey>
+            <Type>Numero</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+        </Members>
+      </Properties>
+      <Methods>
+        <Name>Methods</Name>
+        <Expanded>true</Expanded>
+        <Visible>false</Visible>
+        <Members />
+      </Methods>
+      <Property>
+        <Name>nome</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </Property>
+      <OldSelectedObject xsi:type="UmlProperty">
+        <Name>nome</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </OldSelectedObject>
+    </UmlType>
+  </UmlTypes>
+  <UmlConnections>
+    <UmlConnection>
+      <Bounds>
+        <Location>
+          <X>0</X>
+          <Y>0</Y>
+        </Location>
+        <Size>
+          <Width>0</Width>
+          <Height>0</Height>
+        </Size>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <StartName>Disciplina</StartName>
+      <EndName>Disciplina</EndName>
+      <Start xsi:type="UmlType">
+        <Bounds>
+          <Location>
+            <X>189</X>
+            <Y>21</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>143</Height>
+          </Size>
+          <X>189</X>
+          <Y>21</Y>
+          <Width>147</Width>
+          <Height>143</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Disciplina</TypeName>
+        <InheritsType>
+          <Bounds>
+            <Location>
+              <X>21</X>
+              <Y>21</Y>
+            </Location>
+            <Size>
+              <Width>147</Width>
+              <Height>159</Height>
+            </Size>
+            <X>21</X>
+            <Y>21</Y>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Bounds>
+          <Selected>false</Selected>
+          <Expanded>true</Expanded>
+          <TypeName>Entidade</TypeName>
+          <PropertiesExpanded>false</PropertiesExpanded>
+          <Properties>
+            <Name>Propriedades</Name>
+            <Expanded>true</Expanded>
+            <Visible>true</Visible>
+            <Members>
+              <UmlProperty>
+                <Name>id</Name>
+                <Size />
+                <IsKey>true</IsKey>
+                <Type>Numero</Type>
+              </UmlProperty>
+              <UmlProperty>
+                <Name>nome</Name>
+                <Size />
+                <IsKey>false</IsKey>
+                <Type>Texto</Type>
+              </UmlProperty>
+            </Members>
+          </Properties>
+          <Methods>
+            <Name>Methods</Name>
+            <Expanded>true</Expanded>
+            <Visible>false</Visible>
+            <Members />
+          </Methods>
+          <Property>
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </Property>
+          <OldSelectedObject xsi:type="UmlProperty">
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </OldSelectedObject>
+        </InheritsType>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>descricao</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </Start>
+      <End xsi:type="UmlType">
+        <Bounds>
+          <Location>
+            <X>189</X>
+            <Y>21</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>143</Height>
+          </Size>
+          <X>189</X>
+          <Y>21</Y>
+          <Width>147</Width>
+          <Height>143</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Disciplina</TypeName>
+        <InheritsType>
+          <Bounds>
+            <Location>
+              <X>21</X>
+              <Y>21</Y>
+            </Location>
+            <Size>
+              <Width>147</Width>
+              <Height>159</Height>
+            </Size>
+            <X>21</X>
+            <Y>21</Y>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Bounds>
+          <Selected>false</Selected>
+          <Expanded>true</Expanded>
+          <TypeName>Entidade</TypeName>
+          <PropertiesExpanded>false</PropertiesExpanded>
+          <Properties>
+            <Name>Propriedades</Name>
+            <Expanded>true</Expanded>
+            <Visible>true</Visible>
+            <Members>
+              <UmlProperty>
+                <Name>id</Name>
+                <Size />
+                <IsKey>true</IsKey>
+                <Type>Numero</Type>
+              </UmlProperty>
+              <UmlProperty>
+                <Name>nome</Name>
+                <Size />
+                <IsKey>false</IsKey>
+                <Type>Texto</Type>
+              </UmlProperty>
+            </Members>
+          </Properties>
+          <Methods>
+            <Name>Methods</Name>
+            <Expanded>true</Expanded>
+            <Visible>false</Visible>
+            <Members />
+          </Methods>
+          <Property>
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </Property>
+          <OldSelectedObject xsi:type="UmlProperty">
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </OldSelectedObject>
+        </InheritsType>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>descricao</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </End>
+    </UmlConnection>
+    <UmlConnection>
+      <Bounds>
+        <Location>
+          <X>0</X>
+          <Y>0</Y>
+        </Location>
+        <Size>
+          <Width>0</Width>
+          <Height>0</Height>
+        </Size>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <StartName>Disciplina</StartName>
+      <EndName>Entidade</EndName>
+      <Start xsi:type="UmlType">
+        <Bounds>
+          <Location>
+            <X>189</X>
+            <Y>21</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>143</Height>
+          </Size>
+          <X>189</X>
+          <Y>21</Y>
+          <Width>147</Width>
+          <Height>143</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Disciplina</TypeName>
+        <InheritsType>
+          <Bounds>
+            <Location>
+              <X>21</X>
+              <Y>21</Y>
+            </Location>
+            <Size>
+              <Width>147</Width>
+              <Height>159</Height>
+            </Size>
+            <X>21</X>
+            <Y>21</Y>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Bounds>
+          <Selected>false</Selected>
+          <Expanded>true</Expanded>
+          <TypeName>Entidade</TypeName>
+          <PropertiesExpanded>false</PropertiesExpanded>
+          <Properties>
+            <Name>Propriedades</Name>
+            <Expanded>true</Expanded>
+            <Visible>true</Visible>
+            <Members>
+              <UmlProperty>
+                <Name>id</Name>
+                <Size />
+                <IsKey>true</IsKey>
+                <Type>Numero</Type>
+              </UmlProperty>
+              <UmlProperty>
+                <Name>nome</Name>
+                <Size />
+                <IsKey>false</IsKey>
+                <Type>Texto</Type>
+              </UmlProperty>
+            </Members>
+          </Properties>
+          <Methods>
+            <Name>Methods</Name>
+            <Expanded>true</Expanded>
+            <Visible>false</Visible>
+            <Members />
+          </Methods>
+          <Property>
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </Property>
+          <OldSelectedObject xsi:type="UmlProperty">
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </OldSelectedObject>
+        </InheritsType>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>descricao</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </Start>
+      <End xsi:type="UmlType">
+        <Bounds>
+          <Location>
+            <X>21</X>
+            <Y>21</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Size>
+          <X>21</X>
+          <Y>21</Y>
+          <Width>147</Width>
+          <Height>159</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Entidade</TypeName>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>id</Name>
+              <Size />
+              <IsKey>true</IsKey>
+              <Type>Numero</Type>
+            </UmlProperty>
+            <UmlProperty>
+              <Name>nome</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </End>
+    </UmlConnection>
+    <UmlConnection>
+      <Bounds>
+        <Location>
+          <X>0</X>
+          <Y>0</Y>
+        </Location>
+        <Size>
+          <Width>0</Width>
+          <Height>0</Height>
+        </Size>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <StartName>Assunto</StartName>
+      <EndName>Entidade</EndName>
+      <Start xsi:type="UmlType">
+        <Bounds>
+          <Location>
+            <X>21</X>
+            <Y>231</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>175</Height>
+          </Size>
+          <X>21</X>
+          <Y>231</Y>
+          <Width>147</Width>
+          <Height>175</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Assunto</TypeName>
+        <InheritsType>
+          <Bounds>
+            <Location>
+              <X>21</X>
+              <Y>21</Y>
+            </Location>
+            <Size>
+              <Width>147</Width>
+              <Height>159</Height>
+            </Size>
+            <X>21</X>
+            <Y>21</Y>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Bounds>
+          <Selected>false</Selected>
+          <Expanded>true</Expanded>
+          <TypeName>Entidade</TypeName>
+          <PropertiesExpanded>false</PropertiesExpanded>
+          <Properties>
+            <Name>Propriedades</Name>
+            <Expanded>true</Expanded>
+            <Visible>true</Visible>
+            <Members>
+              <UmlProperty>
+                <Name>id</Name>
+                <Size />
+                <IsKey>true</IsKey>
+                <Type>Numero</Type>
+              </UmlProperty>
+              <UmlProperty>
+                <Name>nome</Name>
+                <Size />
+                <IsKey>false</IsKey>
+                <Type>Texto</Type>
+              </UmlProperty>
+            </Members>
+          </Properties>
+          <Methods>
+            <Name>Methods</Name>
+            <Expanded>true</Expanded>
+            <Visible>false</Visible>
+            <Members />
+          </Methods>
+          <Property>
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </Property>
+          <OldSelectedObject xsi:type="UmlProperty">
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </OldSelectedObject>
+        </InheritsType>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>disciplina</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Disciplina</Type>
+            </UmlProperty>
+            <UmlProperty>
+              <Name>grupo</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Numero</Type>
+            </UmlProperty>
+            <UmlProperty>
+              <Name>pai</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Letra</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </Start>
+      <End xsi:type="UmlType">
+        <Bounds>
+          <Location>
+            <X>21</X>
+            <Y>21</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Size>
+          <X>21</X>
+          <Y>21</Y>
+          <Width>147</Width>
+          <Height>159</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Entidade</TypeName>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>id</Name>
+              <Size />
+              <IsKey>true</IsKey>
+              <Type>Numero</Type>
+            </UmlProperty>
+            <UmlProperty>
+              <Name>nome</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </End>
+    </UmlConnection>
+    <UmlConnection>
+      <Bounds>
+        <Location>
+          <X>0</X>
+          <Y>0</Y>
+        </Location>
+        <Size>
+          <Width>0</Width>
+          <Height>0</Height>
+        </Size>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>0</Width>
+        <Height>0</Height>
+      </Bounds>
+      <Selected>false</Selected>
+      <StartName>Usuário</StartName>
+      <EndName>Entidade</EndName>
+      <Start xsi:type="UmlType">
+        <Bounds>
+          <Location>
+            <X>189</X>
+            <Y>168</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>143</Height>
+          </Size>
+          <X>189</X>
+          <Y>168</Y>
+          <Width>147</Width>
+          <Height>143</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Usuário</TypeName>
+        <InheritsType>
+          <Bounds>
+            <Location>
+              <X>21</X>
+              <Y>21</Y>
+            </Location>
+            <Size>
+              <Width>147</Width>
+              <Height>159</Height>
+            </Size>
+            <X>21</X>
+            <Y>21</Y>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Bounds>
+          <Selected>false</Selected>
+          <Expanded>true</Expanded>
+          <TypeName>Entidade</TypeName>
+          <PropertiesExpanded>false</PropertiesExpanded>
+          <Properties>
+            <Name>Propriedades</Name>
+            <Expanded>true</Expanded>
+            <Visible>true</Visible>
+            <Members>
+              <UmlProperty>
+                <Name>id</Name>
+                <Size />
+                <IsKey>true</IsKey>
+                <Type>Numero</Type>
+              </UmlProperty>
+              <UmlProperty>
+                <Name>nome</Name>
+                <Size />
+                <IsKey>false</IsKey>
+                <Type>Texto</Type>
+              </UmlProperty>
+            </Members>
+          </Properties>
+          <Methods>
+            <Name>Methods</Name>
+            <Expanded>true</Expanded>
+            <Visible>false</Visible>
+            <Members />
+          </Methods>
+          <Property>
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </Property>
+          <OldSelectedObject xsi:type="UmlProperty">
+            <Name>nome</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </OldSelectedObject>
+        </InheritsType>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>email</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name />
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </Start>
+      <End xsi:type="UmlType">
+        <Bounds>
+          <Location>
+            <X>21</X>
+            <Y>21</Y>
+          </Location>
+          <Size>
+            <Width>147</Width>
+            <Height>159</Height>
+          </Size>
+          <X>21</X>
+          <Y>21</Y>
+          <Width>147</Width>
+          <Height>159</Height>
+        </Bounds>
+        <Selected>false</Selected>
+        <Expanded>true</Expanded>
+        <TypeName>Entidade</TypeName>
+        <PropertiesExpanded>false</PropertiesExpanded>
+        <Properties>
+          <Name>Propriedades</Name>
+          <Expanded>true</Expanded>
+          <Visible>true</Visible>
+          <Members>
+            <UmlProperty>
+              <Name>id</Name>
+              <Size />
+              <IsKey>true</IsKey>
+              <Type>Numero</Type>
+            </UmlProperty>
+            <UmlProperty>
+              <Name>nome</Name>
+              <Size />
+              <IsKey>false</IsKey>
+              <Type>Texto</Type>
+            </UmlProperty>
+          </Members>
+        </Properties>
+        <Methods>
+          <Name>Methods</Name>
+          <Expanded>true</Expanded>
+          <Visible>false</Visible>
+          <Members />
+        </Methods>
+        <Property>
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </Property>
+        <OldSelectedObject xsi:type="UmlProperty">
+          <Name>nome</Name>
+          <Size />
+          <IsKey>false</IsKey>
+          <Type>Texto</Type>
+        </OldSelectedObject>
+      </End>
+    </UmlConnection>
+  </UmlConnections>
+</DiagramPers>

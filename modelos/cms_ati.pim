@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<DiagramPers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UmlTypes>
+    <UmlType>
+      <Bounds>
+        <Location>
+          <X>21</X>
+          <Y>21</Y>
+        </Location>
+        <Size>
+          <Width>147</Width>
+          <Height>191</Height>
+        </Size>
+        <X>21</X>
+        <Y>21</Y>
+        <Width>147</Width>
+        <Height>191</Height>
+      </Bounds>
+      <Selected>true</Selected>
+      <Expanded>true</Expanded>
+      <TypeName>Página</TypeName>
+      <PropertiesExpanded>false</PropertiesExpanded>
+      <Properties>
+        <Name>Propriedades</Name>
+        <Expanded>true</Expanded>
+        <Visible>true</Visible>
+        <Members>
+          <UmlProperty>
+            <Name>Código</Name>
+            <Size />
+            <IsKey>true</IsKey>
+            <Type>Numero</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>Título</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>Menu</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+          <UmlProperty>
+            <Name>Conteúdo</Name>
+            <Size />
+            <IsKey>false</IsKey>
+            <Type>Texto</Type>
+          </UmlProperty>
+        </Members>
+      </Properties>
+      <Methods>
+        <Name>Methods</Name>
+        <Expanded>true</Expanded>
+        <Visible>false</Visible>
+        <Members />
+      </Methods>
+      <Property>
+        <Name>Conteúdo</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </Property>
+      <OldSelectedObject xsi:type="UmlProperty">
+        <Name>Conteúdo</Name>
+        <Size />
+        <IsKey>false</IsKey>
+        <Type>Texto</Type>
+      </OldSelectedObject>
+    </UmlType>
+  </UmlTypes>
+  <UmlConnections />
+</DiagramPers>
