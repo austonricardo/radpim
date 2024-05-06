@@ -1,0 +1,36 @@
+[ParaCadaEntidade]
+
+        private void sinc[NomeEntidade]()
+        {
+            Services.smv service = new webserviceTeste.Services.smv();
+
+            //service.Credentials = new NetworkCredential("adm", "adm");
+
+            //service.UseDefaultCredentials = true;
+            //service.PreAuthenticate = true;
+            //String login = service.identity("01-01-2010");
+            //MessageBox.Show(login);
+
+            System.Net.CredentialCache myCredentials = new System.Net.CredentialCache();
+            NetworkCredential netCred = new NetworkCredential("admin", "mypass");
+            myCredentials.Add(new Uri(service.Url), "Digest", netCred);
+            service.Credentials = myCredentials;
+			
+			//Obtem itens do servidor
+            Services.[NomeEntidade][] itensInServer = service.get[NomeEntidade]("01-01-2010",1);
+            MessageBox.Show(itensInServer.Length.ToString());
+			
+			//Envia itens para o servidor
+            Services.[NomeEntidade][] lo[NomeEntidade] = new webserviceTeste.Services.[NomeEntidade][2];
+            for(int i = 0; i <lo[NomeEntidade].Length; i++ )
+            {
+                lo[NomeEntidade][i] = new webserviceTeste.Services.[NomeEntidade]();
+                lo[NomeEntidade][i].Codigo = 3 + i;
+                lo[NomeEntidade][i].Nome = "[NomeEntidade]"+(3 + i);
+            }
+            String result = service.process[NomeEntidade](lo[NomeEntidade]);
+			
+            MessageBox.Show(result);
+
+        }
+[\ParaCadaEntidade]
