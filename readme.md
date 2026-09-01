@@ -218,7 +218,7 @@ Figura 10 – Trecho do arquivo \[NomeEntidade\].cs
 > utilizado por outros *templates* que tiverem semelhanças quanto aos
 > aspectos da linguagem alvo de geração e SGBD.
 
-<img src="images/image4.png" style="width:15.995cm;height:13.453cm" />
+<img src="images/image5.png" style="width:15.986cm;height:11.164cm" />
 
 Figura 11 – Exemplo do arquivo TipoDados.xml
 
@@ -270,7 +270,7 @@ Figura 11 – Exemplo do arquivo TipoDados.xml
 > realizar ajustes como o nome da classe que será gerada na linguagem
 > alvo, a tabela no banco de dados em que será persistida etc.
 
-<img src="images/image5.png" style="width:15.986cm;height:11.164cm" />
+<img src="images/image4.png" style="width:15.995cm;height:13.453cm" />
 
 Figura 12 – Geração de código: Ajuste de entidades.
 
