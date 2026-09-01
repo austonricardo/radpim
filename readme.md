@@ -284,7 +284,7 @@ Figura 12 – Geração de código: Ajuste de entidades.
 > como o *template* a ser utilizado, um nome lógico (somente formado por
 > letras) para a aplicação gerada e um local onde será salva.
 
-<img src="images/image6.png" style="width:15.986cm;height:11.164cm" />
+<img src="images/image7.png" style="width:15.998cm;height:13.167cm" />
 
 Figura 13 – Geração de código: opções da geração
 
@@ -315,7 +315,7 @@ Figura 13 – Geração de código: opções da geração
 > diagramação, porque as informações de atributos que seriam repetidos
 > nas demais entidades especializadas são informadas apenas uma vez.
 
-<img src="images/image7.png" style="width:15.998cm;height:13.167cm" />
+<img src="images/image6.png" style="width:15.986cm;height:11.164cm" />
 
 Figura 14 – Diagrama de entidades PIM
 
@@ -327,7 +327,8 @@ Figura 14 – Diagrama de entidades PIM
 > acionando o botão “próximo”, como resultado a tela de configurações da
 > geração é exibida, Figura 16.
 
-<img src="images/image8.png" style="width:15.986cm;height:11.164cm" />
+
+<img src="images/image9.png" style="width:15.993cm;height:11.855cm" />
 
 Figura 15 – Entidades após justes.
 
@@ -341,7 +342,7 @@ Figura 15 – Entidades após justes.
 > para permitir a realização de alguns cenários integrantes dos casos de
 > usos CRUD.
 
-<img src="images/image9.png" style="width:15.993cm;height:11.855cm" />
+<img src="images/image8.png" style="width:15.986cm;height:11.164cm" />
 
 Figura 16 – Geração concluída
 
@@ -384,7 +385,7 @@ Figura 17 – Arquivos gerados
 > *template* uma codificação clara, esses erros podem ser facilmente
 > fixados.
 
-<img src="images/image11.png" style="width:15.995cm;height:13.963cm" />
+<img src="images/image12.png" style="width:14.016cm;height:10.848cm" />
 
 Figura 18 – Solução e Projetos abertos na IDE Visual Studio
 
@@ -404,7 +405,7 @@ Figura 18 – Solução e Projetos abertos na IDE Visual Studio
 > solicitada a confirmação, o resultado desta operação está presentes na
 > tela ilustrada na Figura 20.
 
-<img src="images/image12.png" style="width:14.016cm;height:10.848cm" />
+<img src="images/image11.png" style="width:15.995cm;height:13.963cm" />
 
 Figura 19 – Tela de consulta para a entidade Cliente
 
