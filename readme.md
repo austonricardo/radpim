@@ -219,7 +219,6 @@ Figura 10 – Trecho do arquivo \[NomeEntidade\].cs
 > aspectos da linguagem alvo de geração e SGBD.
 
 <img src="images/image5.png" style="width:15.986cm;height:11.164cm" />
-
 Figura 11 – Exemplo do arquivo TipoDados.xml
 
 1.  1.  1.  ### Processo de geração
@@ -271,7 +270,6 @@ Figura 11 – Exemplo do arquivo TipoDados.xml
 > alvo, a tabela no banco de dados em que será persistida etc.
 
 <img src="images/image4.png" style="width:15.995cm;height:13.453cm" />
-
 Figura 12 – Geração de código: Ajuste de entidades.
 
 > Dentre os ajustes possíveis na tela mostrada na Figura 12 estão as
@@ -284,9 +282,8 @@ Figura 12 – Geração de código: Ajuste de entidades.
 > como o *template* a ser utilizado, um nome lógico (somente formado por
 > letras) para a aplicação gerada e um local onde será salva.
 
-<img src="images/image7.png" style="width:15.998cm;height:13.167cm" />
-
-Figura 13 – Geração de código: opções da geração
+<img src="images/image6.png" style="width:15.986cm;height:11.164cm" />
+Figura 13 – Diagrama de entidades PIM
 
 > Durante o processamento a barra de progresso identificará o percentual
 > da geração realizada até o momento e, ao seu final, uma mensagem é
@@ -315,9 +312,8 @@ Figura 13 – Geração de código: opções da geração
 > diagramação, porque as informações de atributos que seriam repetidos
 > nas demais entidades especializadas são informadas apenas uma vez.
 
-<img src="images/image6.png" style="width:15.986cm;height:11.164cm" />
-
-Figura 14 – Diagrama de entidades PIM
+<img src="images/image7.png" style="width:15.998cm;height:13.167cm" />
+Figura 14 – Geração de código: opções da geração
 
 > Acionando o *menu *“Ferramentas” e “Gerar Código Fonte...” a tela de
 > edição das entidades é mostrada possibilitando realizar os ajustes
@@ -325,14 +321,13 @@ Figura 14 – Diagrama de entidades PIM
 > Pessoa e a deletamos pois não será necessária, nas demais não
 > precisamos realizar ajustes. Portanto seguimos ao passo adiante
 > acionando o botão “próximo”, como resultado a tela de configurações da
-> geração é exibida, Figura 16.
+> geração é exibida, Figura 14.
 
 
 <img src="images/image9.png" style="width:15.993cm;height:11.855cm" />
-
 Figura 15 – Entidades após justes.
 
-> O *template* utilizado será o definido na Figura 9 que se refere a uma
+> O *template* utilizado será o definido na Figura 14 que se refere a uma
 > aplicação web em ASP.Net na linguagem C#, pronto para ser segregado em
 > 3 camadas, utilizando o sistema gerenciador de banco de dados MySQL,
 > fazendo uso do *framework* AJAX (ASPNETAJAX), alguns padrões de
@@ -343,7 +338,6 @@ Figura 15 – Entidades após justes.
 > usos CRUD.
 
 <img src="images/image8.png" style="width:15.986cm;height:11.164cm" />
-
 Figura 16 – Geração concluída
 
 > Após a finalização da geração podemos conferir os arquivos gerados na
@@ -358,7 +352,6 @@ Figura 16 – Geração concluída
 > Figura 17 mostra os arquivos e pastas gerados na pasta de saída.
 
 <img src="images/image10.png" style="width:15.988cm;height:8.066cm" />
-
 Figura 17 – Arquivos gerados
 
 > As classes geradas a partir do modelo citado são apresentadas na
@@ -369,7 +362,7 @@ Figura 17 – Arquivos gerados
 > unicamente cada ocorrência desta entidade.
 
 > Derivada do arquivo de *template* “\[NomeEntidade\].cs” temos o
-> arquivo “Cliente.cs” listado na Figura abaixo, a partir dele e seu
+> arquivo “Cliente.cs” listado na Figura 17, a partir dele e seu
 > correspondente no *template* da Figura 11, podemos ter uma idéia dos
 > arquivos resultantes nos demais casos.
 
@@ -386,7 +379,6 @@ Figura 17 – Arquivos gerados
 > fixados.
 
 <img src="images/image12.png" style="width:14.016cm;height:10.848cm" />
-
 Figura 18 – Solução e Projetos abertos na IDE Visual Studio
 
 > Iniciando a aplicação por essa IDE um emulador de servidor web é
@@ -406,11 +398,9 @@ Figura 18 – Solução e Projetos abertos na IDE Visual Studio
 > tela ilustrada na Figura 20.
 
 <img src="images/image11.png" style="width:15.995cm;height:13.963cm" />
-
 Figura 19 – Tela de consulta para a entidade Cliente
 
 <img src="images/image13.png" style="width:14.083cm;height:10.881cm" />
-
 Figura 20 – Tela de inclusão da entidade Cliente
 
 > A operação de edição pode ser acionada a partir da listagem dos itens
